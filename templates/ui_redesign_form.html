@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content -->
+</head>
+<body>
+    <h1>UI Redesign</h1>
+    <form action="{{ url_for('ui_redesign') }}" method="POST">
+        <label for="user_input">Provide feedback for UI redesign:</label>
+        <textarea id="user_input" name="user_input" rows="4" cols="50"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
